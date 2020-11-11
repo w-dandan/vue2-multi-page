@@ -1,0 +1,19 @@
+{
+  "pages": {
+    "main": {
+      "entry": "./src/modules/main/main.js",
+      "template": "./public/index.html",
+      "filename": "index.html"
+    },
+    "h5": {
+      "entry": "./src/modules/h5/main.js",
+      "template": "./public/index.html",
+      "filename": "h5/index.html"
+    },
+    "pc": {
+      "entry": "./src/modules/pc/main.js",
+      "template": "./public/index.html",
+      "filename": "pc/index.html"
+    }
+  }
+}
