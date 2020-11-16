@@ -22,5 +22,8 @@ module.exports = {
   chainWebpack: conf => {
     config.chainWebpack(conf)
   },
+  devServer: {
+    port: '9090'
+  },
   pages: pages
 }

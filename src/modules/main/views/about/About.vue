@@ -1,6 +1,6 @@
 <template>
-  <div>
-    this is main home page
+  <div class="about">
+    this is main about page
   </div>
 </template>
 
@@ -8,9 +8,9 @@
   import dayjs from 'dayjs'
 
   export default {
-    name: 'Home',
+    name: 'About',
     created() {
-      console.log(dayjs().year())
+      console.log(dayjs().date())
     },
   }
 </script>

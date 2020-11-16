@@ -1,6 +1,6 @@
 <template>
-  <div>
-    this is h5 home page
+  <div class="about">
+    this is h5 about page
   </div>
 </template>
 
@@ -8,10 +8,10 @@
   import _ from 'lodash'
 
   export default {
-    name: 'Home',
+    name: 'About',
     created() {
-      console.log(_.join([1, 2, 3], '-'))
-    }
+      console.log(_.join([2, 3, 4], '--'))
+    },
   }
 </script>
 

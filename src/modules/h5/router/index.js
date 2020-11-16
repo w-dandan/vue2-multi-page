@@ -7,8 +7,12 @@ const router = new VueRouter({
   routes: [
     {
       path: '/home',
-      component: () => import(/*webpackChunkName: "home"*/'@/modules/h5/views/home/Home')
-    }
+      component: () => import(/*webpackChunkName: "h5-home"*/'@/modules/h5/views/home/Home')
+    },
+    {
+      path: '/about',
+      component: () => import(/*webpackChunkName: "h5-about"*/'@/modules/h5/views/about/About')
+    },
   ]
 })
 

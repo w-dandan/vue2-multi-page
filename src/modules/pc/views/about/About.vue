@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    this is pc home page
+  <div class="about">
+    this is pc about page
   </div>
 </template>
 
@@ -8,10 +8,10 @@
   import $ from 'jquery'
 
   export default {
-    name: 'Home',
+    name: 'About',
     mounted() {
-      console.log($('home'))
-    }
+      console.log($)
+    },
   }
 </script>
 
