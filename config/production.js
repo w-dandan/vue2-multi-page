@@ -1,15 +1,9 @@
-module.exports = function () {
-  let pages = {}
+module.exports = function (pages, pageConfig) {
   function chainWebpack() {
 
   }
 
-  function getPages() {
-
-  }
-
   return {
-    chainWebpack,
-    getPages
+    chainWebpack
   }
 }

@@ -1,12 +1,12 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div>
+    this is main home page
   </div>
 </template>
 
 <script>
   export default {
-    name: 'App.vue'
+    name: 'Home'
   }
 </script>
 
